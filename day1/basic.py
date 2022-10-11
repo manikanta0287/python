@@ -8,7 +8,7 @@ print(name)
 
 day = "sunday"
 x = day
-if x == "sunday":
+if x == "monday":
     print("Day is correct")
 else:
         print("Day is wrong")
