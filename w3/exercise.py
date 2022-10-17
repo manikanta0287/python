@@ -153,8 +153,41 @@ class Person:
     self.name = name
     self.age = age
 
-------------------------------------------------------
+------------------------------------------------------INHERITENCE CONCEPT---------------------------------
 
+We have used the Student class to create an object named x.
+
+What is the correct syntax to execute the printname method of the object x?
+
+
+class Person:
+  def __init__(self, fname):
+    self.firstname = fname
+
+  def printname(self):
+    print(self.firstname)
+
+class Student(Person):
+  pass
+
+x = Student("Mike")
+x.printname()
+
+-----------------------------------------Module concepts---------------------------------------------------------------------
+
+What is the correct syntax of printing all variables and function names of the "mymodule" module?
+
+
+import mymodule
+
+print(dir(mymodule))
+
+-------------------------------------------------------------------------------------------------------------
+
+What is the correct syntax of importing only the person1 dictionary of the "mymodule" module?
+
+
+from mymodule import  person1
 
 
 """
